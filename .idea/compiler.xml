@@ -7,8 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="storage" />
         <module name="business" />
-        <module name="seata-demo" />
+        <module name="common" />
+        <module name="account" />
         <module name="order" />
       </profile>
     </annotationProcessing>
