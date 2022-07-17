@@ -3,7 +3,7 @@ package com.magic.storage;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.magic")
 public class StorageApplication {
 
     public static void main(String[] args) {
